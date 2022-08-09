@@ -57,7 +57,7 @@ window.sr = ScrollReveal();
         distance: '-120px'
     });
 
-    sr.reveal('.portadalibro', {
+    sr.reveal('.Bookport', {
         duration: 5000,
         origin: 'right',
         distance: '-300px'
@@ -101,7 +101,13 @@ window.sr = ScrollReveal();
     });
 
     sr.reveal('.finpag', {
-        duration: 10000,
+        duration: 5000,
         origin: 'top',
-        distance: '-90px'
+        distance: '-50px'
+    });
+
+    sr.reveal('.instatext', {
+        duration: 7000,
+        origin: 'top',
+        distance: '-10px'
     });
