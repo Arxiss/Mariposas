@@ -111,3 +111,9 @@ window.sr = ScrollReveal();
         origin: 'top',
         distance: '-10px'
     });
+
+    sr.reveal('.captiontext', {
+        duration: 5000,
+        origin: 'top',
+        distance: '-10px'
+    });
