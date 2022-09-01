@@ -6,18 +6,21 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Mariposas</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <script src="js/scrollreveal.js"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />        <!-- Core theme CSS (includes Bootstrap)-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- JavaScript Bundle with Popper -->
+        
     </head>
     <body id="page-top">
 
@@ -43,7 +46,6 @@
 
 
 
-
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-6 d-flex h-100 align-items-center justify-content-center">
@@ -52,34 +54,54 @@
                         <h1 class="mx-auto my-0 text-uppercase text-white scroll-titlle ">M A R I P O S A S</h1>
                         <h2 class="text-white mx-auto mt-2 mb-5 tittle-ref" style="font-size: 17px">No basta con vivir, dijo la mariposa, hay que
                             tener sol, libertad y una pequeña flor.
-                            <dl class=" pt-2" style="font-size: 14px">-Hanz Christian Andersen</h2>
+                            <blockquote class=" pt-2" style="font-size: 14px">-Hanz Christian Andersen</h2>
                         <a class="btn btn-primary btn-read" href="#carouselExampleDark">Ver capítulos</a>
                     </div>
                 </div>
             </div>
         </header>
 
-
-
+        <script>$( document ).ready(function() {
+            $('#myModal').modal('toggle')
+        });</script>
+        <!-- Modal--> 
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Bienvenido</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                  Si estás desde un dispositivo móvil te recomendamos utilizar el sitio en versión de escritorio para 
+                  una mejor visualización.
+                </div>
+          
+              </div>
+            </div>
+          </div>
+          
 
 
         <!-- About-->
         <section class="about-section text-justify" id="about">
             <div class="container">
-                <div class="row gx-1 gx-lg-3 justify-content-center">
+                <div class="row gx-1 gx-lg-5 justify-content-center text-center">
                     <div class="col-lg-8 pb-0 about-scroll">
-                        <h2 class="text-center text-justify text-white mb-4">¿Quiénes somos?</h2>
-                        <p class="text-white ms-0">
-                            1. Álamo es una editorial que se basa en la creación de productos de contenido gráfico visual, 
+                        <h2 class="h2about mb-4 mb-5">¿Quiénes somos?</h2>
+                        <p class="text-white text-center text-center ms-0">
+                            Álamo es una editorial que se basa en la creación de productos de contenido gráfico visual, 
                             nuestra filosofia se basa en la simplicidad y modernidad.<br>
-                            
-                            <br>2. Es la unión de cuatro jóvenes colombianos aprendices del programa de formación desarollo de medios gráficos visuales 
+                            <br>Es la unión de cuatro jóvenes colombianos aprendices del programa de formación desarollo de medios gráficos visuales 
                             del centro de formación SENA que desean contar historias a través de su arte.<br>
-
-                            <br>3. Nuestra libro tiene como objetivo comunicar sobre el tema de la EUTANASIA en la actualidad y así 
+                            <br>Nuestra libro tiene como objetivo comunicar sobre el tema de la EUTANASIA en la actualidad y así 
                             ayudar desde nuestro ámbito a contar la verdad abordando las leyes en nuestro país.<br>
-                            </p>
-                           <img class="mx-auto d-block pb-5 pt-5 " style="width: 50%" src="assets/img/Aboutimg.PNG" alt="Aboutimg"/>
+                           <img class="mx-auto d-block pb-5 pt-5 " style="width: 70%" src="assets/img/Aboutimg.PNG" alt="Aboutimg"/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,14 +111,18 @@
 
 
 
+
         <!-- Projects-->
         <section class="projects-section bg-light " id="projects">
-            <div class="container px-4 px-lg-5 ">
+            <div class="container px-2 px-lg-5" style="padding-bottom: 10rem">
+
+
+
                 <!-- Featured Project Row-->
-                <div class=" row gx-0 mb-4 mb-lg-1 align-items-center">
+                <div class=" row gx-0 mb-4 mb-lg-1 pt-5 justify-content-center">
                     <div class="Bookport col-xl-6 col-lg-5 mt-4"><img style="width: 100%;" class="mx-auto d-block " src="assets/img/Portadas/Portada.jpg" alt="portada"/></div>
-                    <div class="col-xl-6 ">
-                        <div>
+                    <div class="col-xl-5 pr-3">
+                        <div class="m-2">
                             <h4 class="h4text text-center pt-5 pb-0">Nuestro Libro</h4>
                             <p class="h4p1 text-black-50 ms-3 text-justify ">Mariposas nace de la necesidad de difusión del derecho a morir dignamente. 
                                 El ignorar el tema nos hace cuestionarnos sobre la importancia de no solo poseer, sino de divulgar 
@@ -117,7 +143,7 @@
 
         <!-- carrousel-->
         </div>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" class="container px-4 px-lg-1">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide pt-6" data-bs-ride="carousel" class="container px-4 px-lg-1">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -125,22 +151,22 @@
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner"> 
-              <div class="carousel-item active" data-bs-interval="10000">
+              <div class="carousel-item active" data-bs-interval="5000">
                 <img src="assets/img/Portadas/Jose.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-item" data-bs-interval="5000">
                 <img src="assets/img/Portadas/Esperanza.jpg" class="d-block img-fluid w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="5000">
                 <img src="assets/img/Portadas/Rosa.jpg" class="d-block img-fluid w-100 " alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="5000">
                 <img src="assets/img/Portadas/Mariposas.jpg" class="d-block img-fluid w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
@@ -159,30 +185,47 @@
 
 
 
-
-
-
+          <section class="about-section2 text-justify" id="about">
+            <div class="container">
+                <div class="row gx-1 gx-lg-5 justify-content-center text-center">
+                    <div class="col-lg-8 pb-0 about-scroll">
+                        <h2 class="text-white mb-4 mb-5">¿Quieres saber más sobre de la Eutanasia?</h2>
+                        <p class="text-white text-center text-center ms-0">
+                            En este folleto te explicamos cómo funciona la Eutanasia en Colombia, también podrás encontrar más infromación 
+                            respecto a pedir una Eutanasia y los mecanismos para ejercer el Derecho a Morir Dignamente.
+                    </div>
+                    <div class="btndownload">
+                        <a class="btn btn-primary btn-read" href="assets/img/Eutanasia-En-Colombia.pdf" target="_blank">VER FOLLETO</a><br>
+                      </div>
+                      <div class="btndownload">
+                      </div>
+                </div>
+            </div>
         </section>
+
+
+
+
+
         <!-- Goods-->
-        <section class="projects-section bg-light" id="Goods">
-            <div class="container px-4 px-lg-5 pt-5">
-                <div class="w-100 my-auto text-center text-lg-left pb-3">
+        <section class="projects-section" id="Goods">
+            <div class="container px-4 px-lg-5">
+                <div class="w-100 my-auto text-center text-lg-left p-3">
                     <h1>Productos del libro</h1>
                   </div>
-
-                  <div class="figure container">
+                  <div class="figure container justify-content-center align-items-center">
                   <div class="image-container">
                     <figure>
-                        <div class="image figure-img mx-auto d-block img-fluid"><img src="assets/img/Productos/Mariposas.jpg" style="width: 250px;" alt=""> </div>
-                         <figcaption class="captiontext text-center figure-caption" style="font-size: 20px">Domo Mariposas</figcaption>
+                        <div class="image figure-img mx-auto d-block img-fluid"><img src="assets/img/Productos/Mariposas.jpg" style="width: 100%;" alt=""> </div>
+                         <figcaption class="captiontext text-center figure-caption" style="font-size: 30px">Domo Mariposas</figcaption>
                     </figure> 
                     <figure>
-                        <div class="image figure-img mx-auto d-block img-fluid"><img src="assets/img/Productos/Popsocket.jpg" style="width: 250px;" alt=""> </div>
-                        <figcaption class="captiontext text-center figure-caption" style="font-size: 20px">Popsocket</figcaption>
+                        <div class="image figure-img mx-auto d-block img-fluid"><img src="assets/img/Productos/Popsocket.jpg" style="width:100%;" alt=""> </div>
+                        <figcaption class="captiontext text-center figure-caption" style="font-size: 30px">Popsocket</figcaption>
                     </figure>
                     <figure>
-                    <div class="image figure-img mx-auto d-block img-fluid"><img src="assets/img/Productos/Separador.jpg" style="width: 250px;" alt=""> </div>
-                    <figcaption class="captiontext text-center figure-caption" style="font-size: 20px">Separador</figcaption>
+                    <div class="image figure-img mx-auto d-block img-fluid"><img src="assets/img/Productos/Separador.jpg" style="width: 100%;" alt=""> </div>
+                    <figcaption class="captiontext text-center figure-caption" style="font-size: 30px">Separador</figcaption>
                     </figure>
                 </div>
         </section>
@@ -193,9 +236,13 @@
         <!-- Signup-->
         <section class="signup-section" id="signup">
         </section>
+
+        <div class="finpagtext">
+        <footer class="footer bg-black small text-center text-white"><div class="finpag container px-1 px-lg-1" style="font-size: 20px"> 
+            <h3 class="tittle2">¿Te interesa alguno de nustros productos?</h3><dl> <p style="font-size: 20px">Contáctanos y pide el tuyo.</p></div></footer>
+        </div>
+
         <!-- Contact-->
-
-
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5 pt-5">
                 <div class="row gx-4 gx-lg-5">
@@ -203,9 +250,9 @@
                         <div class="card card1 py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Tienda Física</h4>
+                                <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Calle 100 B 32 N 32-12</div>
+                                <div class="small text-black-50"><a href="#!">felipepv12321@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
@@ -213,9 +260,9 @@
                         <div class="card card2 py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
+                                <h4 class="text-uppercase m-0"></h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">AlamoEditorial@gmail.com</a></div>
+                                <img src="assets/img/Mariposa1.png" style="width: 50%;" alt="">
                             </div>
                         </div>
                     </div>
@@ -225,27 +272,19 @@
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Teléfono</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+57 312999129</div>
+                                <div class="small text-black-50">+57 310 481 5244</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="instalogo mx-2" href="#!"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="instatext text-center text-white pt-1">
-                    <p> Visítanos en Instragram</p>
-                </div>
-            </div>
-            <div class="container logowhitefin pt-5 bg-black">
-                <div><img src="assets/img/Logowhite.svg" width="110px;" class="mx-auto d-block img-fluid"></div>
-            </div>
+            </div>>
         </section>
 
 
 
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white"><div class="finpag container px-1 px-lg-1"> Desing By: <dl>Felipe Prada V.</dl><dl>Para ÁlamoEditorial2022</dl> copyright&copy; Todos los derechos reservados. <dl> </div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="finpag container px-1 px-lg-1"> Desing By: <dl>Felipe Prada V.</dl><dl>Para ÁlamoEditorial2022</dl> copyright&copy; Todos los derechos reservados. <dl> </div>
+            <div><img src="assets/img/Logowhite.svg" width="110px;" class="mx-auto logowhitefin d-block img-fluid" style="padding: 0.5rem;"</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

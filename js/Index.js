@@ -96,8 +96,9 @@ window.sr = ScrollReveal();
     });
 
     sr.reveal('.logowhitefin', {
-        duration: 10000,
+        duration: 5000,
         origin: 'top',
+        distance: '-30px'
     });
 
     sr.reveal('.finpag', {
