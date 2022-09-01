@@ -6170,7 +6170,6 @@ textarea.form-control-lg {
   width: 100%;
   overflow: hidden;
   box-shadow: 1px 5px 30px
-  rgba(0, 0, 0, 0.30);
 }
 .carousel-inner::after {
   display: block;
